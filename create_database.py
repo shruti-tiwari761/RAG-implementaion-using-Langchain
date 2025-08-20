@@ -14,7 +14,7 @@ import shutil
 load_dotenv()
 #---- Set Gemini API key 
 # Configure Gemini API directly
-genai.configure(api_key="AIzaSyAsskJ6QKtwVlTVw3Von1IWMkGuzzCVw4k")
+genai.configure(api_key="")
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
@@ -68,3 +68,4 @@ def save_to_chroma(chunks: list[Document]):
 
 if __name__ == "__main__":
     main()
+
